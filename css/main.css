@@ -1,0 +1,27 @@
+*::-webkit-input-placeholder { color: #666; opacity: 1; }
+
+*:-moz-placeholder { color: #666; opacity: 1; }
+
+*::-moz-placeholder { color: #666; opacity: 1; }
+
+*:-ms-input-placeholder { color: #666; opacity: 1; }
+
+ul { list-style: none; margin: 0; padding: 0; }
+
+body input:focus:required:invalid, body textarea:focus:required:invalid { color: #666; }
+
+body input:required:valid, body textarea:required:valid { color: #666; }
+
+html, body { height: 100%; }
+
+body { font-size: 14px; min-width: 320px; position: relative; overflow-x: hidden; opacity: 1; }
+body .header { background: #000; }
+body .header .container { max-width: 1180px; padding: 0; }
+body .header .container .header__top .header__logo { margin-top: 25px; }
+body .header .container .header__top .header__logo a { display: block; }
+body .header .container .header__top .header__info { padding-top: 10px; color: #fff; font-family: "OpenSans-Light"; }
+body .header .container .header__top .header__info li { display: inline-block; padding-left: 20px; }
+body .header .container .header__top .header__info li a { display: block; height: 100%; }
+body .header .container .header__top .header__info .header__info-phone { width: 200px; }
+body .header .container .header__top .header__info .header__info-phone span { padding-left: 5px; font-size: 15px; }
+body .header .container .header__top .header__info .header__info-phone .time { font-size: 12px; padding-left: 40px; }
